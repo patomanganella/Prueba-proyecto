@@ -1,0 +1,342 @@
+/*
+colores:
+azul: #03989E
+naranja: #E6A16F
+blanco: #FBF7E5
+blanco2: #f1e6b6;
+
+fuentes
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+1rem=16px
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+}
+
+
+
+.header1{
+    /* border: solid red; */
+    font-size: larger;
+        
+}
+
+
+li{
+   list-style-type: none;
+}
+.header1 a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 50%;   
+   
+}
+
+nav img{
+/* border: solid red; */
+    width: 100px;
+    height: 100px;
+   
+
+}
+
+
+
+body{
+    background-color:  #E6A16F;
+}
+
+.logo_imagen{
+    width: 10%;
+    /* border: solid gray; */
+    padding-left: 0px;
+    flex-wrap: wrap;
+
+}
+
+
+.grid-conteiner-galeria{
+    display: grid;
+    /* border: solid black; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    padding-top: 5%;
+
+
+}
+
+.grid-galeria{
+    border: solid #FBF7E5 8px;
+    height: 70%;
+    width: 80%;
+    display: grid;
+    gap: 10px;
+
+
+}
+
+
+.grid-texto{
+    color: #FBF7E5;
+    text-align: center;
+    /* border: solid red; */
+
+    font-size: x-large;
+
+}
+
+
+
+.trabajamos{
+    text-align: center;
+    color: #FBF7E5;
+    height: auto;
+    margin: 1px;
+    width: auto;
+    padding: 50px;
+    font-size: large;
+
+}
+
+
+footer{
+    border-top: solid #FBF7E5 3px;
+    width: 100%;
+
+}
+
+.seguinos{
+    border-bottom: solid #FBF7E5 3px;
+    color: #FBF7E5;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: small;
+    margin: auto;
+    padding-bottom: 1%;
+
+}
+
+
+.grid-padre-redes{
+    display: grid;
+    /* border: solid red; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+
+}
+
+.grid-redes{
+    padding-top: 40px;
+
+}
+
+.grid-redes img{
+    width: auto;
+    height: 20%;
+
+}
+
+.grid-redes a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.slogan{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+
+}
+
+.grid-quienes-somos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    /* border: solid saddlebrown; */
+    gap: 20px;
+}
+
+
+.grid-valores img{
+  width: 100%;
+  height: 80%;
+
+}
+
+.grid-valores h1{
+    /* color: red; */
+  padding-top: 50%;
+
+}
+
+
+
+.grid-container-productos{
+    padding-top: 50px;
+    /* border: 3px solid black; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 500px);
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+
+.grid-items h4{
+    /* border: solid white; */
+    padding: 30px;
+    font-size: larger;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+
+.grid-items img{
+    /* border: solid black; */
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+
+}
+
+.foto_renova_tus_espacios{
+    /* border: solid red; */
+    position: relative;
+    left: 2%;
+    padding-top:  50px;
+    display: flex;
+    height: 350px;
+    width: 50%;
+
+}
+
+.renova_tus_espacios{
+     /* border: solid gray; */
+     position: absolute;
+     left: 55%;
+     top: 40%;
+     font-size: xx-large;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #FBF7E5;
+
+}
+
+.foto_modifica_tus_espacios_verdes{
+    /* border: solid red; */
+    position: relative;
+    left: 50%;
+    padding-top:  50px;
+    display: flex;
+    height: 465px;
+    width: 50%;
+}
+
+.modifica_tus_espacios_verdes{
+    /* border: solid gray; */
+    position: absolute;
+    right: 50%;
+    top: 95%;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FBF7E5;
+
+}
+
+.foto_mimalos{
+    /* border: solid red; */
+    position: relative;
+    left: 2%;
+    padding-top:  50px;
+    display: flex;
+    height: 700px;
+    width: 45%;
+    padding-bottom: 30px;
+}
+
+.mimalos{
+    /* border: solid gray; */
+    position: absolute;
+    left: 45%;
+    top: 170%;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FBF7E5;
+
+
+}
+
+.formulario_contacto1{
+    /* border: solid red; */
+    margin: 5%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.formulario_asunto{
+    border: solid black 3px;
+    text-align: center;
+    position: relative;
+    left: 46%;
+    padding: 30px;
+
+
+}
+
+.formulario_contacto{
+    border: solid black 3px;
+    padding: 20px;
+    display: inline;
+    text-align: center;
+    margin: 4%;
+
+
+}
+
+.formulario_input{
+    border: solid black 3px;
+    padding: 30px;
+    display: inline;
+    text-align: start;
+    position: relative;
+    left: 42%;
+    margin: 4%;
+}
+
+.formulario_enviar{
+
+    background-color:black #E6A16F;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    left: 47%;
+    margin: 4%;
+}
+
+
+
+
+
+
