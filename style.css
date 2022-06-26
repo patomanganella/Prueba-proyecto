@@ -20,7 +20,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 @media only screen and (max-width: 480px) {
 
-    
+
+
+
 }
 
 
@@ -28,6 +30,19 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
+.grid-header{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 100px;
+    gap: 20px;
+    padding: 20px;
+    text-align:center;
+    background-color: #FBF7E5;
+        
+    
+    /* border: solid green; */
+   /* border: solid yellow; */
+}
 
 
 .header1{
@@ -91,7 +106,11 @@ body{
 
 }
 
+.grid-galeria:hover{
+    transform: scale(2);
+    
 
+}
 .grid-texto{
     color: #FBF7E5;
     text-align: center;
