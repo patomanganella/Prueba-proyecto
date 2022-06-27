@@ -98,6 +98,8 @@ body{
 
 .grid-galeria:hover{
     transform: scale(2);
+    transition: all 2s;
+    
     
 
 }
@@ -174,6 +176,7 @@ footer{
 
 }
 
+
 .grid-quienes-somos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,13 +192,19 @@ footer{
 
 }
 
+.grid-valores img:hover{
+    transform: scale(1.5);
+    transition: all 2s;   
+}
+    
+
 .grid-valores h1{
     /* color: red; */
   padding-top: 50%;
+  
+
 
 }
-
-
 
 .grid-container-productos{
     padding-top: 50px;
@@ -207,10 +216,11 @@ footer{
     justify-content: center;
     text-align: center;
 
-
-
 }
 
+.grid-items img:hover{
+    transform: scale(1.5);
+}
 
 .grid-items h4{
     /* border: solid white; */
@@ -240,6 +250,11 @@ footer{
 
 }
 
+.foto_renova_tus_espacios:hover{
+    transform: scale(1.5) translate(200px);
+    transition: all 2s;
+}
+
 .renova_tus_espacios{
      /* border: solid gray; */
      position: absolute;
@@ -259,6 +274,11 @@ footer{
     display: flex;
     height: 465px;
     width: 50%;
+}
+
+.foto_modifica_tus_espacios_verdes:hover{
+    transform: scale(1.5) translate(-100px);
+    transition: all 2s;
 }
 
 .modifica_tus_espacios_verdes{
@@ -281,6 +301,12 @@ footer{
     height: 700px;
     width: 45%;
     padding-bottom: 30px;
+}
+
+.foto_mimalos:hover{
+    transform: scale(1.5) translate(300px);
+    transition: all 2s;
+
 }
 
 .mimalos{
